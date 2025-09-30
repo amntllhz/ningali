@@ -3,7 +3,7 @@
 @theme {
 
   /* Colors */
-  --color-bg1: #e63946;
+  --color-bg1: #0e1518;
   --color-bg2: #1e293b;
   --color-accent: #959ca3;
   --color-text1: #f9f8ff;
@@ -14,7 +14,7 @@
 }
 
 :root {  
-  background-color: var(--color-deep);
+  background-color: var(--color-bg1);
   scroll-behavior: smooth;
 }
 
