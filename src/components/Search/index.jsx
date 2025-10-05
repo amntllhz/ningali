@@ -10,7 +10,7 @@ const Search = () => {
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                         </svg>
                     </div>
-                    <input type="search" id="search" className="border-none outline-none focus:border-none focus:outline-none focus:ring-0 font-display w-full p-3 ps-12 text-xs text-text1 rounded-2xl bg-accent/15 " autoComplete="off" placeholder="Type Your Movie ..." required />                    
+                    <input type="search" id="search" className="border-none outline-none focus:border-none focus:outline-none focus:ring-0 font-display w-full p-3 ps-12 text-xs text-text1 rounded-2xl bg-accent/10 " autoComplete="off" placeholder="Type Your Movie ..." required />                    
                 </div>
             </form>
         </>
