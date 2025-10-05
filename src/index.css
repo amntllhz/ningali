@@ -1,6 +1,15 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/forms";
 
 @theme {
+
+  /* Breakpoints */
+  --breakpoint-*: initial;
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
 
   /* Colors */
   --color-bg1: #0e1518;
@@ -10,6 +19,9 @@
   --color-text2: #cbd5e1;
   --color-highlight: #00b4d8;
   --color-cta: #f43f5e;
+
+  /* Font */
+  --font-display: "Plus Jakarta Sans", sans-serif;
 
 }
 
