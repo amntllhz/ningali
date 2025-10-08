@@ -9,6 +9,8 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 
+import { HiMiniPlay } from "react-icons/hi2";
+
 
 const Carousel = () => {
     return (
@@ -26,26 +28,103 @@ const Carousel = () => {
             >
                 <SwiperSlide className=' justify-center px-8 pb-8 text-center'>                    
                     <div className='relative flex flex-col rounded-3xl justify-center items-center bg-accent p-42'>
-                        <p className='absolute bottom-18 left-8 font-display font-semibold'>Anomali Tung-Tung Sahur</p>
-                        <p className='absolute bottom-6 left-8 font-display text-sm text-left w-1/2 line-clamp-2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, ab itaque! Quam labore autem, quod facilis ipsum expedita, distinctio consectetur iste fuga quidem tempora sapiente. Facilis, quos! Quod adipisci excepturi incidunt architecto dolor odit, dicta distinctio obcaecati quasi. Voluptate perspiciatis debitis corrupti, quo ad odio magni quis modi dolorem explicabo?</p>
+                        {/* top carousel */}
+                        <div className='absolute flex flex-row justify-center items-center space-x-2 top-7 left-8'>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>1h 56min</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>Action</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>Movie</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>2025</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>7+</p>
+                            </div>
+                        </div>
+
+                        {/* bottom carousel */}
+                        <div className='absolute flex flex-row justify-center items-center space-x-4 bottom-7 left-8'>                            
+                            <button className='bg-text1/10 p-2 rounded-full' cursor='pointer'>
+                                <HiMiniPlay className='ml-0.5 w-6 h-6 text-text1' />
+                            </button>
+                            <div className='flex flex-col space-y-0.5'>
+                                <p className='font-display text-text1 text-sm font-semibold'>Anomali Tung-Tung Sahur</p>
+                                <p className='font-display text-text1 text-sm text-left w-1/2 line-clamp-2'>Play Trailer</p>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className=' justify-center px-8 pb-8 text-center'>
+                <SwiperSlide className=' justify-center px-8 pb-8 text-center'>                    
                     <div className='relative flex flex-col rounded-3xl justify-center items-center bg-accent p-42'>
-                        <p className='absolute bottom-10 left-10'>Slide 1</p>
+                        {/* top carousel */}
+                        <div className='absolute flex flex-row justify-center items-center space-x-2 top-7 left-8'>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>1h 56min</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>Action</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>Movie</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>2025</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>7+</p>
+                            </div>
+                        </div>
+
+                        {/* bottom carousel */}
+                        <div className='absolute flex flex-row justify-center items-center space-x-4 bottom-7 left-8'>                            
+                            <button className='bg-text1/10 p-2 rounded-full' cursor='pointer'>
+                                <HiMiniPlay className='ml-0.5 w-6 h-6 text-text1' />
+                            </button>
+                            <div className='flex flex-col space-y-0.5'>
+                                <p className='font-display text-text1 text-sm font-semibold'>Anomali Tung-Tung Sahur</p>
+                                <p className='font-display text-text1 text-sm text-left w-1/2 line-clamp-2'>Play Trailer</p>
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide className=' justify-center px-8 pb-8 text-center'>
+                <SwiperSlide className=' justify-center px-8 pb-8 text-center'>                    
                     <div className='relative flex flex-col rounded-3xl justify-center items-center bg-accent p-42'>
-                        <p className='absolute bottom-10 left-10'>Slide 1</p>
+                        {/* top carousel */}
+                        <div className='absolute flex flex-row justify-center items-center space-x-2 top-7 left-8'>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>1h 56min</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>Action</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>Movie</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>2025</p>
+                            </div>
+                            <div className='px-3 py-1.5 bg-text1/10 rounded-full'>
+                                <p className='font-display text-text1 text-xs'>7+</p>
+                            </div>
+                        </div>
+
+                        {/* bottom carousel */}
+                        <div className='absolute flex flex-row justify-center items-center space-x-4 bottom-7 left-8'>                            
+                            <button className='bg-text1/10 p-2 rounded-full' cursor='pointer'>
+                                <HiMiniPlay className='ml-0.5 w-6 h-6 text-text1' />
+                            </button>
+                            <div className='flex flex-col space-y-0.5'>
+                                <p className='font-display text-text1 text-sm font-semibold'>Anomali Tung-Tung Sahur</p>
+                                <p className='font-display text-text1 text-sm text-left w-1/2 line-clamp-2'>Play Trailer</p>
+                            </div>
+                        </div>
                     </div>
-                </SwiperSlide>
-                <SwiperSlide className=' justify-center px-8 pb-8 text-center'>
-                    <div className='relative flex flex-col rounded-3xl justify-center items-center bg-accent p-42'>
-                        <p className='absolute bottom-10 left-10'>Slide 1</p>
-                    </div>
-                </SwiperSlide>
-                
+                </SwiperSlide>                                             
             </Swiper>
         </>
     )
